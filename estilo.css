@@ -1,47 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.item{
-    width: 50px;
-    height: 100px;
-    background-color: rgb(144, 112, 219);
-    color: rgb(44, 17, 109);
-    margin: 10px;
+.caixa {
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.conteudo{
-display: grid;
-grid-template-columns:10% 10% 10% 10% 10% ;
+.redondo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
 }
-
-.barra{
-    background-color: blue;
-    height: 20vh;
-}
-
-.lado{
-    background-color: yellow;
-    height: 60vh;
-}
-
-.principal{
-    background-color: red;
-    height: 80vh;
-}
-
-.rodape{
-    background-color: blue;
-    height: 20vh;
-}
-
-.meu-site{
-
-display: grid;
-grid-template-columns: 20% 80%;
-grid-template-areas: "barra barra"
-                     "lado principal"
-                     "lado rodape";
-}
-
